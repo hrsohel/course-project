@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -6,11 +9,37 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer {
+  .mx {
+    @apply mx-auto
+  }
 }
 
-* {
-  box-sizing: border-box;
+.search-btn {
+  background-image: url("../public/master admin/icon/3844432_magnifier_search_zoom_icon.png");
+  background-position: center; background-size: cover;
+}
+.logo {
+  width: 15rem !important; height: 4rem !important;
+}
+.user {
+  width: 5rem !important; height: 2rem !important;
+}
+
+.category form {
+  position: absolute; top: 50%;
+  left: 50%; transform: translate(-50% -50%);
+  box-shadow: 0 0 .5rem black;
+}
+.Category {
+  height: 115vh;
+}
+.Category li a{
+  margin-left: .5rem;
+}
+.instructor a {
+  margin: 0 .5rem;
+}
+.ise {
+  background: linear-gradient(to bottom, white, rgb(120, 187, 253));
 }
