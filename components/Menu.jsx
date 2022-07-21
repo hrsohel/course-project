@@ -9,7 +9,7 @@ import feesPic from '../public/master admin/icon/172506_money_icon.png'
 const Menu = () => {
     return (
         <>
-            <ul className='Category p-4 w-1/3 hidden md:block bg-blue-900 text-2xl text-white font-semibold'>
+            <ul className='shadow-xl Category p-4 w-1/3 hidden md:block bg-blue-900 text-2xl text-white font-semibold'>
                     <li className='my-4 flex items-center'><Image className='mr-4' src={dashboardPic} width="30rem" height="30rem" /><Link href="dashboard" className='ml-3'>Dashboard</Link></li>
                     <li className='my-4 flex items-center'><Image className='mr-4' src={EMPic} width="30rem" height="30rem" /><Link href="event-management">Event Management</Link></li>
                     <li className='my-4 flex items-center'><Image className='mr-4' src={InsPic} width="30rem" height="30rem" /><Link href="instructor">Instructor</Link></li>

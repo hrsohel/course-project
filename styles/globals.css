@@ -14,7 +14,11 @@ body {
     @apply mx-auto
   }
 }
-
+@layer {
+  .active {
+    @apply bg-hoveSideBac text-hovSideText
+  }
+}
 .search-btn {
   background-image: url("../public/master admin/icon/3844432_magnifier_search_zoom_icon.png");
   background-position: center; background-size: cover;
@@ -35,11 +39,22 @@ body {
   height: 115vh;
 }
 .Category li a{
-  margin-left: .5rem;
+  margin-left: 2rem;
 }
 .instructor a {
   margin: 0 .5rem;
 }
 .ise {
   background: linear-gradient(to bottom, white, rgb(120, 187, 253));
+}
+.userMenu {
+  background: #1F4690;
+}
+.userMenu ul li a {
+  margin-left: .5rem;
+}
+.header {
+  background: url('..//public/User profile/292982759_988887001808470_1252588350587099212_n.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }

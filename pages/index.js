@@ -1,5 +1,5 @@
 import "tailwindcss/tailwind.css"
-import Navbar from "./Navbar"
+import Navbar from "./admin/Navbar"
 
 export default function Home() {
   return <>

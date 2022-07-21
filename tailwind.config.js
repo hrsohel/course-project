@@ -15,6 +15,10 @@ module.exports = {
       },
       colors: {
         colors,
+        "sideBac": "#231955",
+        "sideText": "#FCFFE7",
+        "hoveSideBac": "#143F6B",
+        "hovSideText": "#FF5151"
       }
     },
   },
