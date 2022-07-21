@@ -9,7 +9,7 @@ const dashboard = () => {
         <>
             <Navbar/>
            <main className='flex items-start justify-start '>
-                <Menu />
+                <Menu active="dashboard"/>
                 <div className="dashboard bg-gray-100 p-4 w-full">
                     <div className='flex text-center items-center justify-evenly flex-wrap'>
                         <div className='m-2 p-4 bg-white'>

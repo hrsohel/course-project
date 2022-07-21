@@ -8,7 +8,7 @@ const addFee = () => {
         <>
            <Navbar />
            <main className='flex items-start justify-center bg-gray-200'>
-               <Menu />
+               <Menu active="fee"/>
                 <div className='instructor w-full'>
                     <h1 className='text-white text-center p-3 text-2xl font-bold bg-blue-900'>
                         Add Fees

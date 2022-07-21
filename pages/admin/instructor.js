@@ -10,7 +10,7 @@ const instructor = () => {
         <>
            <Navbar />
            <main className='flex items-start justify-center bg-gray-200'>
-                <Menu/>
+                <Menu active="instructor"/>
                 <div className="instructor w-full">
                     <h1 className='text-white text-center p-3 text-2xl font-bold bg-blue-900'>
                         <Link href='instructor'>All Instructor</Link>

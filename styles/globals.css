@@ -19,6 +19,9 @@ body {
     @apply bg-hoveSideBac text-hovSideText
   }
 }
+a {
+  width: 100%; height: 100% !important;
+}
 .search-btn {
   background-image: url("../public/master admin/icon/3844432_magnifier_search_zoom_icon.png");
   background-position: center; background-size: cover;
@@ -39,7 +42,7 @@ body {
   height: 115vh;
 }
 .Category li a{
-  margin-left: 2rem;
+  margin-left: .5rem;
 }
 .instructor a {
   margin: 0 .5rem;

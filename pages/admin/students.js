@@ -10,7 +10,7 @@ const students = () => {
         <>
             <Navbar />
            <main className='flex items-start justify-center bg-gray-200'>
-                <Menu/>
+                <Menu active="student"/>
                 <div className="instructor w-full">
                     <h1 className='flex items-center justify-evenly text-sm text-white text-center p-3 sm:text-2xl font-bold bg-blue-900'>
                         <div className='hover:bg-slate-100 hover:text-blue-600 h-full rounded-md'><Link href='students'>Students</Link></div>

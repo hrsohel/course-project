@@ -14,7 +14,7 @@ const eventManagement = () => {
         <>
            <Navbar/>
            <main className='flex items-start justify-start bg-gray-300'>
-                <Menu />
+                <Menu active="event-management"/>
                 <div className="event w-full">
                 <h1 className='bg-blue-900 w-full text-center text-white text-2xl py-4 font-bold'>Event Management</h1>
                 <div className='bg-white m-4'>
