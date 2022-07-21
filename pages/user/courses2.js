@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import UserMenu from '../components/UserMenu'
-import courseImg from '../public/Courses/drug-free-zone-sign-o 1.png'
+import UserMenu from '../../components/UserMenu'
+import courseImg from '../../public/Courses/drug-free-zone-sign-o 1.png'
 const courses2 = () => {
     return (
         <>

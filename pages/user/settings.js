@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import UserMenu from '../components/UserMenu';
+import UserMenu from '../../components/UserMenu';
 
 const settings = () => {
     const [showPassForm, setShowPassForm] = useState(false)

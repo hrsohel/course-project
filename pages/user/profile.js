@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import UserMenu from '../components/UserMenu';
-import notify from '../public/User profile/9035146_notifications_icon.png'
-import user from '../public/User profile/4781818_account_avatar_face_man_people_icon.png'
+import UserMenu from '../../components/UserMenu';
+import notify from '../../public/User profile/9035146_notifications_icon.png'
+import user from '../../public/User profile/4781818_account_avatar_face_man_people_icon.png'
 
 const profile = () => {
     return (

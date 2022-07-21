@@ -1,5 +1,5 @@
 import React from 'react';
-import UserMenu from '../components/UserMenu';
+import UserMenu from '../../components/UserMenu';
 import Link from 'next/link';
 import Image from 'next/image';
 
